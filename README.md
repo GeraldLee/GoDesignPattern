@@ -1,6 +1,6 @@
 # GoDesignPattern
 Golang 设计模式
-## Factory Design Pattern
+## Creational Patterns
 - [Singleton](https://github.com/GeraldLee/GoDesignPattern/tree/master/singleton)
 - [SimpleFactory](https://github.com/GeraldLee/GoDesignPattern/tree/master/simple_factory)
 - [FactoryMethod](https://github.com/GeraldLee/GoDesignPattern/tree/master/factory_method)
