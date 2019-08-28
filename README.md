@@ -10,3 +10,4 @@ Golang 设计模式
 ## Structural Patterns
 - [Composite](https://github.com/GeraldLee/GoDesignPattern/tree/master/composite)
 - [Adapter](https://github.com/GeraldLee/GoDesignPattern/tree/master/adapter)
+- [Bridge](https://github.com/GeraldLee/GoDesignPattern/tree/master/bridge)
