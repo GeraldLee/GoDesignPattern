@@ -11,3 +11,4 @@ Golang 设计模式
 - [Composite](https://github.com/GeraldLee/GoDesignPattern/tree/master/composite)
 - [Adapter](https://github.com/GeraldLee/GoDesignPattern/tree/master/adapter)
 - [Bridge](https://github.com/GeraldLee/GoDesignPattern/tree/master/bridge)
+- [Proxy](https://github.com/GeraldLee/GoDesignPattern/tree/master/proxy)
