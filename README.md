@@ -12,3 +12,4 @@ Golang 设计模式
 - [Adapter](https://github.com/GeraldLee/GoDesignPattern/tree/master/adapter)
 - [Bridge](https://github.com/GeraldLee/GoDesignPattern/tree/master/bridge)
 - [Proxy](https://github.com/GeraldLee/GoDesignPattern/tree/master/proxy)
+- [Decorator](https://github.com/GeraldLee/GoDesignPattern/tree/master/decorator)
