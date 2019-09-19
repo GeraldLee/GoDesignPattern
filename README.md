@@ -13,3 +13,6 @@ Golang 设计模式
 - [Bridge](https://github.com/GeraldLee/GoDesignPattern/tree/master/bridge)
 - [Proxy](https://github.com/GeraldLee/GoDesignPattern/tree/master/proxy)
 - [Decorator](https://github.com/GeraldLee/GoDesignPattern/tree/master/decorator)
+## Behavioral Patterns
+- [Strategy](https://github.com/GeraldLee/GoDesignPattern/tree/master/strategy)
+- [Chain](https://github.com/GeraldLee/GoDesignPattern/tree/master/chain)
