@@ -1,18 +1,18 @@
 # GoDesignPattern
 Golang 设计模式
 ## Creational Patterns
-- [Singleton](https://github.com/GeraldLee/GoDesignPattern/tree/master/singleton)
-- [SimpleFactory](https://github.com/GeraldLee/GoDesignPattern/tree/master/simple_factory)
-- [FactoryMethod](https://github.com/GeraldLee/GoDesignPattern/tree/master/factory_method)
-- [AbstractFactory](https://github.com/GeraldLee/GoDesignPattern/tree/master/abstract_factory)
-- [Prototype](https://github.com/GeraldLee/GoDesignPattern/tree/master/prototype)
-- [Builder](https://github.com/GeraldLee/GoDesignPattern/tree/master/builder)
+- [01 Singleton](https://github.com/GeraldLee/GoDesignPattern/tree/master/01_singleton)
+- [02 SimpleFactory](https://github.com/GeraldLee/GoDesignPattern/tree/master/02_simple_factory)
+- [03 FactoryMethod](https://github.com/GeraldLee/GoDesignPattern/tree/master/03_factory_method)
+- [04 AbstractFactory](https://github.com/GeraldLee/GoDesignPattern/tree/master/04_abstract_factory)
+- [05 Prototype](https://github.com/GeraldLee/GoDesignPattern/tree/master/05_prototype)
+- [06 Builder](https://github.com/GeraldLee/GoDesignPattern/tree/master/06_builder)
 ## Structural Patterns
-- [Composite](https://github.com/GeraldLee/GoDesignPattern/tree/master/composite)
-- [Adapter](https://github.com/GeraldLee/GoDesignPattern/tree/master/adapter)
-- [Bridge](https://github.com/GeraldLee/GoDesignPattern/tree/master/bridge)
-- [Proxy](https://github.com/GeraldLee/GoDesignPattern/tree/master/proxy)
-- [Decorator](https://github.com/GeraldLee/GoDesignPattern/tree/master/decorator)
+- [07 Composite](https://github.com/GeraldLee/GoDesignPattern/tree/master/07_composite)
+- [08 Adapter](https://github.com/GeraldLee/GoDesignPattern/tree/master/08_adapter)
+- [09 Bridge](https://github.com/GeraldLee/GoDesignPattern/tree/master/09_bridge)
+- [10 Proxy](https://github.com/GeraldLee/GoDesignPattern/tree/master/10_proxy)
+- [11 Decorator](https://github.com/GeraldLee/GoDesignPattern/tree/master/11_decorator)
 ## Behavioral Patterns
-- [Strategy](https://github.com/GeraldLee/GoDesignPattern/tree/master/strategy)
-- [Chain](https://github.com/GeraldLee/GoDesignPattern/tree/master/chain)
+- [12 Strategy](https://github.com/GeraldLee/GoDesignPattern/tree/master/strategy)
+- [13 Chain](https://github.com/GeraldLee/GoDesignPattern/tree/master/chain)
