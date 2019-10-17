@@ -3,18 +3,10 @@ package composite
 import "testing"
 
 func TestCompositePattern(t *testing.T) {
-	shark := Shark{
-		&Animal{},
-		&SwimmerImpl{},
-	}
-	shark.Eat()
-	shark.Swim()
-
-
-	phelps := Phelps{
-		&TrainerImpl{},
-		&SwimmerImpl{},
-	}
-	phelps.Train()
-	phelps.Swim()
+	triangle := &Triangle{}
+	circle := &Circle{}
+	drawer := Drawing{}
+	drawer.Add(triangle)
+	drawer.Add(circle)
+	drawer.Draw("yellow")
 }

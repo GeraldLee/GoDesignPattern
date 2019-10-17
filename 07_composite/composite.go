@@ -2,44 +2,36 @@ package composite
 
 import "fmt"
 
-type Swimmer interface {
-	Swim()
+type Shape interface {
+	Draw(fillColor string)
 }
 
-type Trainer interface {
-	Train()
+type Triangle struct{}
+
+func (t *Triangle) Draw(fillColor string) {
+	fmt.Println("Drawing Triangle with color", fillColor)
 }
 
-type Eater interface {
-	Eat()
+type Circle struct{}
+
+func (t *Circle) Draw(fillColor string) {
+	fmt.Println("Drawing Circle with color", fillColor)
 }
 
-type Athlete struct{}
-func (a *Athlete) Train() {
-	fmt.Println("Training")
+type Drawing struct {
+	shapes []Shape
 }
 
-type Animal struct{}
-func (r *Animal)Eat() {
-	println("Eating")
+func (d *Drawing) Add(shape Shape){
+	if d.shapes == nil {
+		d.shapes = make([]Shape,0)
+	}
+	d.shapes = append(d.shapes, shape)
 }
 
-type SwimmerImpl struct{}
-func (s *SwimmerImpl) Swim(){
-	println("Swimming!")
+func (d *Drawing) Draw(fillColor string) {
+	for _, shape := range d.shapes {
+		shape.Draw(fillColor)
+	}
 }
 
-type TrainerImpl struct{}
-func (s *TrainerImpl) Train(){
-	println("Training!")
-}
-
-type Shark struct{
-	Eater
-	Swimmer
-}
-
-type Phelps struct{
-	Trainer
-	Swimmer
-}
